@@ -47,7 +47,7 @@
   function wining(player) {
     gameOver = true;
 
-    winnerElm.textContent = `${player} is win `;
+    alert((winnerElm.textContent = `${player} is win `));
     p1BtnElm.setAttribute("disabled", "disabled");
     p2BtnElm.setAttribute("disabled", "disabled");
   }

@@ -1,15 +1,15 @@
-.p1btn
-  -webkit-appearance: none
-  user-select: none
-  display: flex
-  align-items: center
-  justify-content: center
-  outline: none
-  cursor: pointer
-  width: 150px
-  height: 50px
-  background-image: linear-gradient(to top, $button-gradient)
-  border-radius: 30px
+.p1btn{
+  -webkit-appearance: none;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  background-image: linear-gradient(to top, $button-gradient);
+  border-radius: 30px;
   border: 1px solid $button-border
   box-shadow: $button-shadow-default
   transition: all .2s ease
